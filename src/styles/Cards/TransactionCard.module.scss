@@ -1,0 +1,140 @@
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 5%;
+  background: #fff7e5;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 200ms ease, transform 200ms ease;
+  cursor: pointer;
+}
+
+.iconContainer svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #f8aa35;
+}
+
+.iconContainer:hover {
+  background: #ffe7c2;
+  transform: scale(1.1);
+}
+
+.container {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 7%;
+  padding: 1.5rem;
+  transition: box-shadow 200ms ease;
+}
+
+.container:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  gap: 5rem;
+  width: 100%;
+}
+
+.categoryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333333;
+  text-transform: capitalize;
+  display: flex;
+  gap: 5rem;
+}
+
+.category {
+  color: #f8aa35;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  gap: 5rem;
+}
+
+.date {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.description {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 200ms ease, opacity 200ms ease;
+  
+}
+
+.descriptionActive {
+  max-height: 3rem;
+  opacity: 1;
+  transition: max-height 200ms ease, opacity 200ms ease;
+}
+
+.description p {
+  font-size: 0.9rem;
+  color: #666666;
+  line-height: 1.5;
+  
+}
+
+.moneyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  
+  
+}
+
+.moneyContainer span {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333333;
+  
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 5%;
+  padding: 0.5rem;
+  transition: background 200ms ease, transform 200ms ease;
+  cursor: pointer;
+}
+
+.iconContainer:hover {
+  background: #e9e9e9;
+  transform: scale(1.1);
+}
+
+.iconContainer svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #f8aa35;
+}
